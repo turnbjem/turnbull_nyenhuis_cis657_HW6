@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CIS657_HW4</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string-array name="distUnits">
+        <item>kilometers</item>
+        <item>miles</item>
+    </string-array>
+    <string-array name="bearUnits">
+        <item>degrees</item>
+        <item>mils</item>
+    </string-array>
+    <string name="title_activity_delete_me">DeleteMe</string>
+</resources>
