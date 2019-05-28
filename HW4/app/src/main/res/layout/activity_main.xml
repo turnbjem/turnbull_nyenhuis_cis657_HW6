@@ -142,7 +142,6 @@
         android:id="@+id/searchbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
 
         android:text="SEARCH"
         app:layout_constraintBaseline_toBaselineOf="@+id/SearchPrompt"
