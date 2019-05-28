@@ -58,8 +58,11 @@ public class MainActivity extends AppCompatActivity {
         long2 = (EditText) findViewById(R.id.long2);
 
 
-        distanceresult = (TextView) findViewById(R.id.distanceresult);
-        bearingresult = (TextView) findViewById(R.id.bearingresult);
+        distanceresult = (TextView) findViewById(R.id.distanceText);
+        bearingresult = (TextView) findViewById(R.id.BearingText);
+
+        distanceresult.setText("Distance: ");
+        bearingresult.setText("Bearing: ");
 
         CalculateButton = (Button) findViewById(R.id.CalculateButton);
         ClearButton = (Button) findViewById(R.id.ClearButton);
@@ -180,8 +183,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-       distanceresult.setText(""+distance+" "+DistUnit);
-       bearingresult.setText(""+bearing+" "+BearUnit);
+       distanceresult.setText("Distance: "+distance+" "+DistUnit);
+       bearingresult.setText("Bearing: "+bearing+" "+BearUnit);
     }
 
     void inputToString(){
