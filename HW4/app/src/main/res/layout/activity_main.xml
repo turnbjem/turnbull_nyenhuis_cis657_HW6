@@ -132,10 +132,10 @@
         android:layout_marginBottom="24dp"
         android:text="Tired of typing?"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/searchbutton"
         app:layout_constraintEnd_toStartOf="@+id/searchbutton"
         app:layout_constraintHorizontal_bias=".5"
         app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintRight_toLeftOf="@+id/searchbutton"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -145,11 +145,11 @@
         android:layout_marginStart="75dp"
 
         android:text="SEARCH"
-        app:layout_constraintLeft_toRightOf="@+id/SearchPrompt"
         app:layout_constraintBaseline_toBaselineOf="@+id/SearchPrompt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".5"
         app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@+id/SearchPrompt"
         app:layout_constraintStart_toEndOf="@+id/SearchPrompt" />
 
 
